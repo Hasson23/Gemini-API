@@ -9,7 +9,7 @@ import {
     GoogleGenerativeAI,
   } from "@google/generative-ai";
   
-  const apiKey = "AIzaSyAUq1IgotcSCIDNk91PUq7ByLCQuTV_B5A";
+  const apiKey = "API Key";
   const genAI = new GoogleGenerativeAI(apiKey);
   
   const model = genAI.getGenerativeModel({
